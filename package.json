@@ -1,0 +1,18 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn --cwd ./client install && yarn --cwd ./client test",
+    "start-backend": "npm install && node index.js",
+    "start-frontend": "yarn --cwd ./client install && yarn --cwd ./client start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "curl-request": "^1.1.1",
+    "express": "^4.16.4"
+  }
+}
